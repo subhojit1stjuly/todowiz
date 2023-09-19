@@ -4,6 +4,4 @@
     - Java for Coding
     - MVVM architecture with the architechture components.
     - Dagger2
-
-removed some comments
 # (added some more comments)
