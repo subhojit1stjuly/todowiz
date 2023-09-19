@@ -4,3 +4,5 @@
     - Java for Coding
     - MVVM architecture with the architechture components.
     - Dagger2
+
+Checking Verified Signed Commits
