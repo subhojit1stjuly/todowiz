@@ -1,0 +1,75 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="288dp"
+            android:height="288dp"
+            android:viewportWidth="288"
+            android:viewportHeight="288">
+            <group
+                android:name="main_group"
+                android:translateX="12"
+                android:translateY="37"
+                android:scaleX="0.9"
+                android:scaleY="0.9">
+                <group
+                    android:name="check_border"
+                    android:translateX="74"
+                    android:translateY="-34"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6">
+                    <path
+                        android:name="check"
+                        android:pathData="M 28.444 229.756 L 98.45 306.51 C 99.84 308.036 102.233 308.057 103.655 306.56 L 259.556 142.222"
+                        android:fillColor="#000"
+                        android:fillAlpha="0"
+                        android:strokeColor="#8685e7"
+                        android:strokeWidth="65"
+                        android:trimPathEnd="0"
+                        android:strokeLineCap="round"
+                        android:strokeLineJoin="round"/>
+                </group>
+                <group
+                    android:name="border_group"
+                    android:translateX="45"
+                    android:translateY="10"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7">
+                    <path
+                        android:name="border"
+                        android:pathData="M 213.333 20.543 L 58.667 20.543 C 35.104 20.543 16 39.647 16 63.21 L 16 233.877 C 16 257.439 35.104 276.543 58.667 276.543 L 231.111 276.543 C 254.674 276.543 273.778 257.439 273.778 233.877 L 273.778 160.988"
+                        android:fillColor="#000"
+                        android:fillAlpha="0"
+                        android:strokeColor="#8685e7"
+                        android:strokeWidth="20"
+                        android:trimPathEnd="0"
+                        android:strokeLineCap="round"/>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="check">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="2500"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="border">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="2500"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
