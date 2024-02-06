@@ -1,5 +1,5 @@
 package com.reprototyperstech.todowiz.core.utils
 
-object Constants {
-
+object ToDoWizConstants {
+    const val DATABASE = "ToDoWiz.db"
 }

@@ -14,3 +14,5 @@
     -----|-crash analitics
     -----|-push notification
     -----|-app config
+    -----|-FireStore for Chat server.
+    - Google Drive for Backup the data.
